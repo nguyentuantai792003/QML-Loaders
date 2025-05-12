@@ -144,8 +144,8 @@ Item {
         var centerX = root.width / 2, centerY = root.height / 2;
         var posX = 0, posY = 0;
 
-        posX = centerX + root._innerRadius * Math.cos(_toRadian(angleInDegree));
-        posY = centerY - root._innerRadius * Math.sin(_toRadian(angleInDegree));
+        posX = centerX + root._innerRadius * cos_angleInDegree;
+        posY = centerY - root._innerRadius * sin_angleInDegree;
         return Qt.point(posX, posY);
     }
 }
